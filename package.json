@@ -1,0 +1,26 @@
+{
+  "name": "todo-vanilla",
+  "version": "0.0.1",
+  "description": "To-do app, no view or state libraries",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "webpack-dev-server -d --open",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "Samuel Scheiderich",
+  "license": "0BSD",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^3.19.0",
+    "flow-bin": "^0.47.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {}
+}
